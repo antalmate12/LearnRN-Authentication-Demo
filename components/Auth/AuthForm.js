@@ -5,10 +5,10 @@ import Button from '../ui/Button';
 import Input from './Input';
 
 function AuthForm({ isLogin, onSubmit, credentialsInvalid }) {
-  const [enteredEmail, setEnteredEmail] = useState('');
-  const [enteredConfirmEmail, setEnteredConfirmEmail] = useState('');
-  const [enteredPassword, setEnteredPassword] = useState('');
-  const [enteredConfirmPassword, setEnteredConfirmPassword] = useState('');
+  const [enteredEmail, setEnteredEmail] = useState('antal.mate@debugentity.hu');
+  const [enteredConfirmEmail, setEnteredConfirmEmail] = useState('antal.mate@debugentity.hu');
+  const [enteredPassword, setEnteredPassword] = useState('123456789Aa');
+  const [enteredConfirmPassword, setEnteredConfirmPassword] = useState('123456789Aa');
 
   const {
     email: emailIsInvalid,
